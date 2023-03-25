@@ -1,0 +1,25 @@
+.intro-row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+.intro-row a{
+  display: flex;
+  align-items: center;
+}
+.intro-row img{
+  border-radius: 20px;
+  border: 5px solid #343a40;
+}
+.intro-row .intro{
+  display: flex;
+  align-items: center;
+}
+.intro-row .intro li{
+  margin: 3rem;
+  color: black;
+  font-size: 20px;
+}
+.intro-row .intro li span{
+  font-weight: bold;
+}

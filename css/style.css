@@ -7,6 +7,7 @@
  */
 @import "login.css";
 @import "post.css";
+@import "logo.css";
 
 :root {
   --blue: #007bff;
@@ -10337,14 +10338,14 @@ h6 {
 }
 
 .container-fluid .badges {
-  position: absolute;
+  position: fixed;
   top: 132px;
   right: 20px;
   z-index: 9; 
 }
 .badges .badge img{
-  width: 220px;
-  height: 180px;
-  border-radius: 15px;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 30px;
   overflow: hidden;
 }
