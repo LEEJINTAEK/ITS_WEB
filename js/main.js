@@ -128,7 +128,8 @@ const badgeEl = document.querySelector(".container-fluid .badges");
 window.addEventListener(
   "scroll",
   _.throttle(function () {
-    if (window.scrollY > 600) {
+    console.log(window.scrollY);
+    if (window.scrollY > 1500) {
       gsap.to(badgeEl, 0.6, {
         //배지숨기기
         opacity: 0,
@@ -141,5 +142,5 @@ window.addEventListener(
         display: "block",
       });
     }
-  }, 300)
+  }, 200)
 );
