@@ -2,12 +2,15 @@
 <html>
   <head>
     <title>게시판</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <h1>게시판</h1>
-      <!-- 게시글 목록이 여기에 표시됩니다. -->
-    </div>
+    <!-- 게시글 목록이 여기에 표시됩니다. -->
     <h2>새로운 게시글 작성</h2>
     <form id="post-form">
       <input type="text" id="author-input" placeholder="작성자" required />
