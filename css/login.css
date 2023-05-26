@@ -1,5 +1,5 @@
 :root {
-  --itsbrown: #b49c73;
+  --yellow: #b49c73;
   --horizontal-space: 25px;
 }
 
@@ -44,10 +44,10 @@
 }
 #login-form input:focus {
   outline: none;
-  border-color: var(--itsbrown);
+  border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-  background-color: var(--itsbrown);
+  background-color: var(--yellow);
   cursor: pointer;
   padding: 20px 40px;
   border-radius: 5px;
